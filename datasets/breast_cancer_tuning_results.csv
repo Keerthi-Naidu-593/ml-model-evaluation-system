@@ -1,0 +1,5 @@
+Model,Best Parameters,Mean CV Malignant ROC-AUC
+Logistic Regression,"C=1, solver=liblinear",0.9959752321981424
+kNN,"n_neighbors=9, p=2, weights=distance",0.9903508771929823
+SVM,"C=0.1, gamma=scale, kernel=linear",0.9956656346749225
+Random Forest,"max_depth=None, min_samples_split=2, n_estimators=100",0.989576883384933

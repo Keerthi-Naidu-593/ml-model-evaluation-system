@@ -1,0 +1,73 @@
+{
+    "dataset_name": "Breast Cancer Dataset",
+    "target_column": "target",
+    "target_labels": {
+        "0": "Malignant",
+        "1": "Benign"
+    },
+    "positive_class": 0,
+    "positive_class_name": "Malignant",
+    "feature_names": [
+        "mean radius",
+        "mean texture",
+        "mean perimeter",
+        "mean area",
+        "mean smoothness",
+        "mean compactness",
+        "mean concavity",
+        "mean concave points",
+        "mean symmetry",
+        "mean fractal dimension",
+        "radius error",
+        "texture error",
+        "perimeter error",
+        "area error",
+        "smoothness error",
+        "compactness error",
+        "concavity error",
+        "concave points error",
+        "symmetry error",
+        "fractal dimension error",
+        "worst radius",
+        "worst texture",
+        "worst perimeter",
+        "worst area",
+        "worst smoothness",
+        "worst compactness",
+        "worst concavity",
+        "worst concave points",
+        "worst symmetry",
+        "worst fractal dimension"
+    ],
+    "num_features": 30,
+    "selected_model": "Logistic Regression",
+    "test_metrics": {
+        "Accuracy": 0.9824561403508771,
+        "Malignant Precision": 0.9761904761904762,
+        "Malignant Recall": 0.9761904761904762,
+        "Malignant F1": 0.9761904761904762,
+        "Malignant Test ROC-AUC": 0.9957010582010581,
+        "CV Malignant ROC-AUC": 0.9959752321981424
+    },
+    "cv_metrics": {
+        "CV ROC-AUC": 0.9959752321981424
+    },
+    "best_hyperparameters": {
+        "C": 1,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": null,
+        "max_iter": 1000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l2",
+        "random_state": 42,
+        "solver": "liblinear",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+    },
+    "training_date": "2026-10-01T12:07:09.995246"
+}

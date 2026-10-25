@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter and testing cache
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large original/intermediate datasets
+datasets/UCI_Credit_Card.csv
+datasets/credit_card_10k_subset.csv
+
+# Intermediate Excel exports
+datasets/*_before_preprocessing.xlsx
+datasets/*_after_preprocessing.xlsx

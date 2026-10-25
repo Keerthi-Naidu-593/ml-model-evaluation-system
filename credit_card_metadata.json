@@ -1,0 +1,56 @@
+{
+    "dataset_name": "UCI Credit Card Default Dataset",
+    "dataset_size": 9993,
+    "target_column": "default.payment.next.month",
+    "target_labels": {
+        "0": "No Default",
+        "1": "Default"
+    },
+    "feature_names": [
+        "LIMIT_BAL",
+        "SEX",
+        "EDUCATION",
+        "MARRIAGE",
+        "AGE",
+        "PAY_0",
+        "PAY_2",
+        "PAY_3",
+        "PAY_4",
+        "PAY_5",
+        "PAY_6",
+        "BILL_AMT1",
+        "BILL_AMT2",
+        "BILL_AMT3",
+        "BILL_AMT4",
+        "BILL_AMT5",
+        "BILL_AMT6",
+        "PAY_AMT1",
+        "PAY_AMT2",
+        "PAY_AMT3",
+        "PAY_AMT4",
+        "PAY_AMT5",
+        "PAY_AMT6"
+    ],
+    "num_features": 23,
+    "selected_model": "Random Forest",
+    "test_metrics": {
+        "Test Accuracy": 0.8209104552276139,
+        "Test Precision": 0.6858407079646017,
+        "Test Recall": 0.3506787330316742,
+        "Test F1": 0.46407185628742514,
+        "Test ROC-AUC": 0.7577136679482821,
+        "CV ROC-AUC": 0.7740761486899006
+    },
+    "cv_metrics": {
+        "roc_auc": 0.7740761486899006
+    },
+    "best_hyperparameters": {
+        "classifier__class_weight": null,
+        "classifier__max_depth": 10,
+        "classifier__min_samples_split": 2,
+        "classifier__n_estimators": 200
+    },
+    "class_imbalance_note": "This is especially important for the Credit Card dataset where class imbalance (~78% vs ~22%) makes accuracy a misleading metric.",
+    "training_date": "2026-10-01T12:19:38.032114",
+    "sampling_note": "Stratified sample of 10,000 records used for full model evaluation, 5-fold cross-validation, and GridSearchCV hyperparameter tuning."
+}

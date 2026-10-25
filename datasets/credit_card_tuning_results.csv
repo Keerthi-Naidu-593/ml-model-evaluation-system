@@ -1,0 +1,5 @@
+Model,Best Parameters,Mean CV ROC-AUC
+Logistic Regression,"C=1, class_weight=None, solver=lbfgs",0.7162311991828607
+kNN,"n_neighbors=7, weights=uniform",0.7073120040994476
+SVM,"C=1, gamma=scale, kernel=rbf",0.7237606056475505
+Random Forest,"class_weight=None, max_depth=10, min_samples_split=2, n_estimators=200",0.7740761486899006
